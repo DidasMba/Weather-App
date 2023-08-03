@@ -1,5 +1,3 @@
-
-
 // WeatherAPI URL and your API key
 const apiKey = '90dbc5716a4345448e0161824230208';
 const apiUrl = 'https://api.weatherapi.com/v1/forecast.json';
@@ -50,7 +48,7 @@ function extractWeatherData(jsonData) {
           <p>Weather Condition: ${weatherData.weatherCondition}</p>
         `;
       } catch (error) {
-        weatherDisplay.innerHTML = 'Error fetching weather data. Please try again.';
+        weatherDisplay.innerHTML = 'Error fetching weather data. Please TRY again.';
         console.error(error);
       }
     });
