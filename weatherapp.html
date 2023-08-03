@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="weatherapp.css">
+  <title>Weather App</title>
+  <!-- Link your CSS file here -->
+  <link rel="stylesheet" href="weatherapp.css">
 </head>
 <body>
-    <h1>Welcome to the Weather App!</h1>
-
-    <!-- Weather search form -->
+  <div class="container">
+    <h1>Weather App</h1>
     <form id="weatherForm">
-        <label for="location">Enter Location:</label>
-        <input type="text" id="location" name="location" required>
-        <button type="submit">Get Weather</button>
+      <label for="locationInput">Enter Location:</label>
+      <input type="text" id="locationInput" required>
+      <button type="submit">Get Weather</button>
     </form>
+    <div id="weatherDisplay"></div>
+  </div>
 
-    <!-- Include your JavaScript file -->
-    <script src="weatherapp.js"></script>
+  <!-- Link your JavaScript file here -->
+  <script src="weatherapp.js"></script>
 </body>
 </html>
-
-
 
 
 
